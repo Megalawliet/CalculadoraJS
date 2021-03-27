@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora con Javascript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="content-body">
+        <div class="content-calculator">
+
+            <div class="screen">
+                <input type="text" placeholder="0" disabled id="screen-result">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="7"onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="8" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="9" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="+" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="7" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="4" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="5" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="6" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="+" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="1" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="2" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="3" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="*" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="0" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-clean">
+                <input type="button" value="C" class="clean" onclick="clean()">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-equal">
+                <input type="button" value="=" class="equal" onclick="calculate()">
+            </div>
+        </div>
+
+
+    </div>
+    <script src="calculadora.js"></script>
+
+
+
+
+
+
+
+
+    <!--<input type="text" id="n1" placeholder="n1">
+    <input type="text" id="n2" placeholder="n2">
+<select id="op">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+
+<button id="calcular">=</button>
+<script>
+    document.querySelector('#calcular').addEventListener('click', () =>{
+    const n1 = document.querySelector('#n1').value;
+    const n2 = document.querySelector('#n2').value;
+    const op = document.querySelector('#op').value;    
+    let r;
+    if (op == '+') {
+        r=n1+n2;
+        else if (op == '-'){
+            r=n1-n2;
+        }
+        else if (op == '*') {
+            r = n1 - n2;    
+        }
+        else if (op == '/') {
+            r = n1 - n2;
+        }
+    }
+    })
+</script>
+-->
+</body>
+</html>
